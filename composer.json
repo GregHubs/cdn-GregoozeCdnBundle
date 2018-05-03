@@ -71,7 +71,7 @@
     },
     "extra": {
         "branch-alias": {
-            "dev-1.0": "1.7-dev"
+            "dev-1.0": "1.8-dev"
         }
     }
 }

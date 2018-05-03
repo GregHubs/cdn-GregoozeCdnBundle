@@ -122,7 +122,7 @@ class FilterManager
         }
 
             $prior = $image;
-            $image = $this->loaders['resize']->load($image, ['size' => $config['size']]);
+            $image = $config['mode']->load($image, ['size' => $config['size']]);
 
             if ($prior !== $image) {
                 $this->destroyImage($prior);

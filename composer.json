@@ -5,7 +5,7 @@
     "keywords": [ "imagine", "image", "manipulation", "pictures", "photos", "transformation", "bundle", "symfony", "liip" ],
     "homepage": "http://liip.ch",
     "license": "MIT",
-    "version": "1.1.0",
+    "version": "dev-master",
     "authors": [
         {
             "name": "Liip and other contributors",
@@ -69,10 +69,5 @@
     "prefer-stable": true,
     "config": {
         "sort-packages": true
-    },
-    "extra": {
-        "branch-alias": {
-            "dev-1.1": "1.9-dev"
-        }
     }
 }
